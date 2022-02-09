@@ -7,11 +7,11 @@ public class Main {
 		
 		Scanner in = new Scanner(System.in);
 		
-		int A = in.nextInt();       // »ç¶÷ ¼ö 
-		int B = in.nextInt();       // ³ĞÀÌ
-		int[] arr = new int[5];     // ½Å¹® ±â»çÀÇ »ç¶÷µéÀ» ÀúÀåÇÏ±â À§ÇÑ ¹è¿­ 
+		int A = in.nextInt();       // ì‚¬ëŒ ìˆ˜ 
+		int B = in.nextInt();       // ë„“ì´
+		int[] arr = new int[5];     // ì‹ ë¬¸ ê¸°ì‚¬ì˜ ì‚¬ëŒë“¤ì„ ì €ì¥í•˜ê¸° ìœ„í•œ ë°°ì—´ 
 		for(int i=0; i<5; i++) {
-			arr[i] = in.nextInt();  // 5°³ÀÇ ½Å¹®
+			arr[i] = in.nextInt();  // 5ê°œì˜ ì‹ ë¬¸
 			
 		}
 		for(int i=0; i<5; i++) {
@@ -24,3 +24,4 @@ public class Main {
 
 	}
 }
+ 
