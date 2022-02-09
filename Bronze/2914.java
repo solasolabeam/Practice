@@ -7,10 +7,11 @@ public class Main {
 		
 		Scanner in = new Scanner(System.in);
 		
-		int A = in.nextInt();       // »ç¶÷ ¼ö 
-		int B = in.nextInt();       // ³ĞÀÌ
+		int A = in.nextInt();       // Â»Ã§Â¶Ã· Â¼Ã¶ 
+		int B = in.nextInt();       // Â³ÃÃ€ÃŒ
 		
 		System.out.println(A*(B-1)+1);
 
 	}
 }
+ 
