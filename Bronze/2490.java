@@ -20,19 +20,19 @@ public class Main {
 				
 				
 			}
-			if(count==0){            // ¸ğ
+			if(count==0){            // ëª¨
 				System.out.println("E");
 			}
-			else if(count==1) {      // µµ
+			else if(count==1) {      // ë„
 				System.out.println("A");
 			}
-			else if(count==2) {      // °³
+			else if(count==2) {      // ê°œ
 				System.out.println("B");
 			}
-			else if(count==3) {      // °É
+			else if(count==3) {      // ê±¸
 				System.out.println("C");
 			}
-			else if(count==4) {      // À·
+			else if(count==4) {      // ìœ·
 				System.out.println("D");
 			}
 			
