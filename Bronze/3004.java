@@ -17,13 +17,13 @@ public class Main {
 	
 
 	static int printNum(int num) {
-		if(num%2!=1) { 		// 礎熱曖 唳辦
+		if(num%2!=1) { 		
 			num = num/2;
 			num = num+1;
 			num*=num;
 			return num;
 			
-		}else { 			// �汝鶺� 唳辦
+		}else { 			
 			
 			int row = ((num-1)/2)+1;
 			int col = ((num+1)/2)+1;
