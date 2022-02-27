@@ -1,16 +1,9 @@
-import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		int A = in.nextInt();
-		int B = in.nextInt();
-	
-		
-		long sum =A+B;
-		
-		System.out.println(sum);
-		in.close();
-	}
+public class Test {
+    long sum(int[] a) {
+        long ans = 0;
+        for(int i  = 0; i < a.length; i++){
+            ans += a[i];
+        }
+        return ans;
+    }
 }
