@@ -4,21 +4,16 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
-		int A = in.nextInt();  // °íÁ¤ ºñ¿ë
-		int B = in.nextInt();  // °¡º¯ ºñ¿ë
-		int C = in.nextInt();  // ³ëÆ®ºÏ °¡°Ý
-		long cnt =0;
-		long sum=0;
-		while(true) {
-			cnt++;
-			sum=A+B*cnt;
-			if(C*cnt>sum) 
-				break;
-			
+		int A = in.nextInt();  // ê³ ì • ë¹„ìš©
+		int B = in.nextInt();  // ê°€ë³€ ë¹„ìš©
+		int C = in.nextInt();  // ë…¸íŠ¸ë¶ ê°€ê²©
+		
+		if(B>=C) {
+			System.out.println(-1);
 		}
-		
-System.out.println(cnt);
-		
+		else {
+			System.out.println((A/(C-B))+1);
+		}
 		in.close();
 	}
 }
