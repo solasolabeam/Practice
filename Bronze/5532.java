@@ -8,13 +8,8 @@ public class Main {
 		int B = in.nextInt();
 		int C = in.nextInt();
 		int D = in.nextInt();
-		in.close();
-		double a=0,b=0;
+		System.out.println(A/C>B/D?L-(A-1)/C-1:L-(B-1)/D-1);
 		
-		a=Math.ceil((double)A/C); 
-		b=Math.ceil((double)B/D);
-
-		System.out.println((int)(L-(a>b?a:b)));
 
 	}
 }
