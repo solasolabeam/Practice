@@ -1,12 +1,10 @@
-<center>  A. Playoff</center>
+<div align="center">A. Playoff</div>
+<div align="center">time limit per test : 2 seconds</div>
+<div align="center">memory limit per test : 512 megabytes</div>
+<div align="center">input : standard input</div>
+<div align="center">output : standard output</div><br>
 
-<center>time limit per test : 2 seconds</center>
 
-<center>memory limit per test : 512 megabytes</center>
-
-<center>input : standard input</center>
-
-<center>output : standard output</center>
 
 Consider a playoff tournament where  2n2n  athletes compete. The athletes are numbered from  11  to  2n2n.
 
