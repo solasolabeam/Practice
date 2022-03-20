@@ -4,13 +4,13 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		String str = in.nextLine();
-		String[] arr = { "c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z=" }; // Á¶°Ç¿¡ ÇØ´çµÇ´Â ¹®ÀÚ
+		String[] arr = { "c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z=" }; // ì¡°ê±´ì— í•´ë‹¹ë˜ëŠ” ë¬¸ì
 		for (int i = 0; i < arr.length; i++) {
 			if (str.contains(arr[i])) {
-				str = str.replace(arr[i], "!");  // Á¶°Ç¿¡ ºÎÇÕÇÏ¸é ÀÓÀÇÀÇ ÇÑÀÚ¸® ¹®ÀÚ·Î º¯°æ
+				str = str.replace(arr[i], "!");  // ì¡°ê±´ì— ë¶€í•©í•˜ë©´ ì„ì˜ì˜ í•œìë¦¬ ë¬¸ìë¡œ ë³€ê²½
 			}
 		}
 		System.out.println(str.length());
 
 	}
-}
+} 
