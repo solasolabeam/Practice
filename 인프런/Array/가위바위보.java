@@ -21,9 +21,8 @@ public class Main {
 			System.out.println("A");
 		else if(A[i]==3&&B[i]==2)
 			System.out.println("A");
-		else
-			System.out.println("B");
+		
 		
 		}	
 	}
-}
+} 
