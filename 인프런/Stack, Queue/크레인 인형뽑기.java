@@ -1,5 +1,3 @@
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -7,7 +5,6 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		Stack<Integer> st = new Stack<>();
-		Queue<Integer> qu = new LinkedList<>();
 		int cnt = 0;
 
 		int n = in.nextInt();
